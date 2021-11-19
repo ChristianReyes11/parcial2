@@ -6,12 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'p2';
+  title = 'parcial2';
   link: any;
   constructor(){
     this.link= "ui/ui.component.html";
-  }
-  getLink(){
-    return this.link;
   }
 }
