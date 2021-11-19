@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'parcial2';
+  link: any;
+  constructor(){
+    this.link= "ui/ui.component.html";
+  }
 }
