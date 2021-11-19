@@ -3,14 +3,14 @@ import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
-import { MidpointComponent } from './Ui/formula.component';
-import { InformationComponent } from './information/information.component';
+import { FormulaComponent } from './Ui/formula.component';
+//import { InformationComponent } from './Ui/information.component';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    MidpointComponent,
-    InformationComponent
+    //AppComponent,
+    //FormulaComponent,
+   // InformationComponent
   ],
   imports: [
     BrowserModule,

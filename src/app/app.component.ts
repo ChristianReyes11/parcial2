@@ -9,6 +9,6 @@ export class AppComponent {
   title = 'parcial2';
   link: any;
   constructor(){
-    this.link= "ui/ui.component.html";
+    this.link= "Ui/information.component.html";
   }
 }

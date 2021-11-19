@@ -1,10 +1,7 @@
 import { Component } from '@angular/core';
 
-@Component({
-  selector: 'information-component',
+@Component InformationComponent({
+  selector: 'InformationComponent',
   templateUrl: './information.component.html',
   styleUrls: ['./information.component.css']
-})
-export class InformationComponent {
-  title = 'Information Component';
-}
+});
